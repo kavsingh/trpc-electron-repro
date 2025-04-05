@@ -1,0 +1,19 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"allowImportingTsExtensions": true,
+		"allowJs": true,
+		"checkJs": true,
+		"erasableSyntaxOnly": true,
+		"esModuleInterop": true,
+		"lib": ["es2023", "dom"],
+		"module": "nodenext",
+		"moduleResolution": "node16",
+		"noEmit": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "es2022",
+		"verbatimModuleSyntax": true
+	},
+	"exclude": ["node_modules", "dist"]
+}
