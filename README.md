@@ -16,3 +16,12 @@ SyntaxError: The requested module 'electron' does not provide an export named 'c
 ---
 
 see `./main.ts#L6`
+possibly related: https://github.com/electron/electron/issues/41449#issuecomment-1967614240
+
+---
+
+```shell
+# node 22
+npm i
+npm start
+````
